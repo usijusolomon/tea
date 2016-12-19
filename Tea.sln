@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tea", "Tea\Tea.csproj", "{0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectClass", "ObjectClass\ObjectClass.csproj", "{BF89C8CE-E6D0-4905-8D56-373C1EE16321}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase", "DataBase\DataBase.csproj", "{30043FC3-0EBC-496B-BB77-4C2E1B408786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BF89C8CE-E6D0-4905-8D56-373C1EE16321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF89C8CE-E6D0-4905-8D56-373C1EE16321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF89C8CE-E6D0-4905-8D56-373C1EE16321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30043FC3-0EBC-496B-BB77-4C2E1B408786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30043FC3-0EBC-496B-BB77-4C2E1B408786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30043FC3-0EBC-496B-BB77-4C2E1B408786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30043FC3-0EBC-496B-BB77-4C2E1B408786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
