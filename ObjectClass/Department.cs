@@ -9,9 +9,9 @@ namespace ObjectClass
 {
     public class Department
     {
-        public string DepartmentId { get; set; }
+        public long DepartmentId { get; set; }
         public string Name { get; set; }
-        public string FacultyId { get; set; }
+        public long FacultyId { get; set; }
         [ForeignKey("FacultyId")]
         public virtual Faculty Faculty { get; set; }
     }

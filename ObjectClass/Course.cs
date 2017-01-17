@@ -9,7 +9,7 @@ namespace ObjectClass
 {
     public class Course
     {
-        public string CourseId { get; set; }
+        public long CourseId { get; set; }
         public string Name { get; set; }
         public string CourseCode { get; set; }
         public string CourseTitle { get; set; }

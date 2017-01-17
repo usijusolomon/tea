@@ -10,7 +10,7 @@ namespace DataBase
 {
     public class DepartmentDataBaseConnection : DbContext
     {
-        public DepartmentDataBaseConnection(): base("name=Tea")
+        public DepartmentDataBaseConnection(): base("name=TeaDb")
         {
 
         }

@@ -8,7 +8,7 @@ namespace ObjectClass
 {
     public class Faculty 
     {
-        public string FacultyId { get; set; }
+        public long FacultyId { get; set; }
         public string Name { get; set; }
         public IEnumerable<Department> Department { get; set; }
     }
