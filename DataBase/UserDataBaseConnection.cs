@@ -1,11 +1,16 @@
 ﻿using ObjectClass;
+using System;
+using System.Collections.Generic;
 using System.Data.Entity;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace DataBase
 {
-    public class CourseDataBaseConnection : DbContext
+    public class UserDataBaseConnection : DbContext
     {
-        public CourseDataBaseConnection(): base("name=TeaDb")
+        public UserDataBaseConnection(): base("name=TeaDb")
         {
         }
         public virtual DbSet<Faculty> Faculties { get; set; }
@@ -15,6 +20,5 @@ namespace DataBase
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Question> Questions { get; set; }
         public virtual DbSet<Answer> Answers { get; set; }
-
     }
 }

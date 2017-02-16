@@ -14,6 +14,7 @@ namespace DataBase
         {
 
         }
+        public virtual DbSet<Faculty> Faculty { get; set; }
         public virtual DbSet<Department> Departments { get; set; }
         public virtual DbSet<Level> Levels { get; set; }
         public virtual DbSet<Course> Courses { get; set; } 

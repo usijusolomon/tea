@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnswerDataBaseConnection.cs" />
     <Compile Include="CourseDataBaseConnection.cs" />
     <Compile Include="DepartmentDataBaseConnection.cs" />
     <Compile Include="FacultyDataBaseConnection.cs" />
@@ -65,8 +66,14 @@
     <Compile Include="Migrations\201701171554281_Migrate1.Designer.cs">
       <DependentUpon>201701171554281_Migrate1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702160022588_migrate3.cs" />
+    <Compile Include="Migrations\201702160022588_migrate3.Designer.cs">
+      <DependentUpon>201702160022588_migrate3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionDataBaseConnection.cs" />
+    <Compile Include="UserDataBaseConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ObjectClass\ObjectClass.csproj">
@@ -81,6 +88,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201701171554281_Migrate1.resx">
       <DependentUpon>201701171554281_Migrate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702160022588_migrate3.resx">
+      <DependentUpon>201702160022588_migrate3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

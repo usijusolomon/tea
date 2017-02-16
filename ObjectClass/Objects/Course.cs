@@ -20,5 +20,6 @@ namespace ObjectClass
         public long DepartmentId { get; set; }
         [ForeignKey("DepartmentId")]
         public virtual Department Department { get; set; }
+        public IEnumerable<Question> Question { get; set; }
     }
 }
